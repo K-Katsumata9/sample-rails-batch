@@ -26,3 +26,14 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 gem "bootsnap"
+
+group :test do
+    # Adds support for Capybara system testing and selenium driver
+    gem 'capybara', '>= 2.15'
+    gem 'selenium-webdriver'
+    # Easy installation and use of web drivers to run system tests with browsers
+    gem 'webdrivers'
+  
+    gem 'rspec-rails'
+    gem 'factory_bot_rails'
+end
