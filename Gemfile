@@ -26,6 +26,7 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 gem "bootsnap"
+gem 'activerecord-import'
 
 group :test do
     # Adds support for Capybara system testing and selenium driver
